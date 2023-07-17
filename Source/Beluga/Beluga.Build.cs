@@ -7,7 +7,7 @@ public class Beluga : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicIncludePaths.AddRange(new string[] { "Beluga" });
-	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core" });
+
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine" });
 	}
 }
